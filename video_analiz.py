@@ -29,7 +29,7 @@ while cap.isOpened():
     ret, frame = cap.read()
     if not ret:
         break
-    if frame_no % 30 == 0:
+    if frame_no % 150 == 0:
         dosya_adi = f"kareler/frame_{frame_no:04d}.jpg"
         cv2.imwrite(dosya_adi, frame)
         kaydedilen.append(dosya_adi)
@@ -38,17 +38,17 @@ while cap.isOpened():
 cap.release()
 print(f"\n{len(kaydedilen)} kare kaydedildi!")
 
-# İlk 6 kareyi göster
-fig, axlar = plt.subplots(2, 3, figsize=(15, 8))
+# İlk 20 kareyi göster
+fig, axlar = plt.subplots(4, 5, figsize=(20, 16))
+axlar = axlar.flatten()
 fig.suptitle("Video Kareleri", fontsize=14)
 
-for i, kare_yolu in enumerate(kaydedilen[:6]):
+for i, kare_yolu in enumerate(kaydedilen[:20]):
     goruntu = cv2.imread(kare_yolu)
     goruntu = cv2.cvtColor(goruntu, cv2.COLOR_BGR2RGB)
-    ax = axlar[i // 3][i % 3]
-    ax.imshow(goruntu)
-    ax.set_title(f"Frame {i*30}")
-    ax.axis("off")
+    axlar[i].imshow(goruntu)
+    axlar[i].set_title(f"Frame {i*150}")
+    axlar[i].axis("off")
 
 plt.tight_layout()
 plt.savefig("video_kareleri.png")
