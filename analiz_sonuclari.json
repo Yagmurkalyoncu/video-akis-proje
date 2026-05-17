@@ -1,0 +1,179 @@
+[
+  {
+    "kare": "frame_0000.jpg",
+    "etiketler": [
+      {
+        "isim": "Road",
+        "guven": 99.99573516845703
+      },
+      {
+        "isim": "Outdoors",
+        "guven": 99.92015075683594
+      },
+      {
+        "isim": "Car",
+        "guven": 94.5302734375
+      },
+      {
+        "isim": "Transportation",
+        "guven": 94.5302734375
+      },
+      {
+        "isim": "Vehicle",
+        "guven": 94.5302734375
+      },
+      {
+        "isim": "Aerial View",
+        "guven": 92.33098602294922
+      },
+      {
+        "isim": "Machine",
+        "guven": 92.08432006835938
+      },
+      {
+        "isim": "Screw",
+        "guven": 92.08432006835938
+      },
+      {
+        "isim": "Architecture",
+        "guven": 73.64462280273438
+      },
+      {
+        "isim": "Building",
+        "guven": 73.64462280273438
+      }
+    ]
+  },
+  {
+    "kare": "frame_0150.jpg",
+    "etiketler": [
+      {
+        "isim": "Outdoors",
+        "guven": 99.73583984375
+      },
+      {
+        "isim": "Road",
+        "guven": 99.3043441772461
+      },
+      {
+        "isim": "Aerial View",
+        "guven": 86.5411605834961
+      },
+      {
+        "isim": "Transportation",
+        "guven": 83.7958755493164
+      },
+      {
+        "isim": "Vehicle",
+        "guven": 83.7958755493164
+      },
+      {
+        "isim": "Car",
+        "guven": 80.70507049560547
+      }
+    ]
+  },
+  {
+    "kare": "frame_0300.jpg",
+    "etiketler": [
+      {
+        "isim": "Road",
+        "guven": 99.99756622314453
+      },
+      {
+        "isim": "Outdoors",
+        "guven": 99.87510681152344
+      },
+      {
+        "isim": "Aerial View",
+        "guven": 89.18524169921875
+      },
+      {
+        "isim": "Car",
+        "guven": 89.14768981933594
+      },
+      {
+        "isim": "Transportation",
+        "guven": 89.14768981933594
+      },
+      {
+        "isim": "Vehicle",
+        "guven": 89.14768981933594
+      },
+      {
+        "isim": "Machine",
+        "guven": 70.11066436767578
+      },
+      {
+        "isim": "Screw",
+        "guven": 70.11066436767578
+      }
+    ]
+  },
+  {
+    "kare": "frame_0450.jpg",
+    "etiketler": [
+      {
+        "isim": "Road",
+        "guven": 98.82622528076172
+      },
+      {
+        "isim": "Outdoors",
+        "guven": 98.67542266845703
+      },
+      {
+        "isim": "Machine",
+        "guven": 88.01205444335938
+      },
+      {
+        "isim": "Screw",
+        "guven": 88.01205444335938
+      },
+      {
+        "isim": "Transportation",
+        "guven": 86.52715301513672
+      },
+      {
+        "isim": "Vehicle",
+        "guven": 86.52715301513672
+      },
+      {
+        "isim": "Car",
+        "guven": 85.41956329345703
+      }
+    ]
+  },
+  {
+    "kare": "frame_0600.jpg",
+    "etiketler": [
+      {
+        "isim": "Road",
+        "guven": 99.07546997070312
+      },
+      {
+        "isim": "Outdoors",
+        "guven": 99.04904174804688
+      },
+      {
+        "isim": "Moving Van",
+        "guven": 90.7383041381836
+      },
+      {
+        "isim": "Transportation",
+        "guven": 90.7383041381836
+      },
+      {
+        "isim": "Van",
+        "guven": 90.7383041381836
+      },
+      {
+        "isim": "Vehicle",
+        "guven": 90.7383041381836
+      },
+      {
+        "isim": "Aerial View",
+        "guven": 77.19654083251953
+      }
+    ]
+  }
+]
