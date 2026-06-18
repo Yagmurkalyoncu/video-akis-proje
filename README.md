@@ -1,6 +1,6 @@
 # 🎬 Video Akışı ve İşleme Projesi
 **3522 Bulut Bilişim Dersi — Proje 6**
-
+youtube link: https://www.youtube.com/watch?v=BTl2FG5WMIE
 *Trafik videoları üzerinde AWS Rekognition ile gerçek zamanlı nesne tespiti ve bulut tabanlı video işleme*
 
 ## 🎯 Proje Hakkında
